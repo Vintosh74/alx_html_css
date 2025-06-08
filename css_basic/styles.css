@@ -54,3 +54,53 @@ aside {
     padding: 1rem;
     background-color: #e9e9e9;
 }
+
+/* Logo style */
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+/* Enhance article appearance*/
+article h1, article h2, article h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+article p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+article table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: white;
+}
+
+article table th,
+article table td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+article a {
+    color: #1e90ff;
+    text-decoration: underline;
+}
+
+article a: hover {
+    color: #0056b3;
+}
+
+/* Optional: Image styling inside article */
+article img {
+    margin-top: 1rem;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
